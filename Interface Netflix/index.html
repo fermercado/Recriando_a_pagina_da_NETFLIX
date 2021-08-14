@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/reponsividade.css">
+
+    <title>Netflix Clone</title>
+</head>
+<body>
+<header>
+
+    <div class="container">
+        <h2 class="logo">NETFLIX</h2>
+        <nav>
+            <a href="a">Inicio</a>
+            <a href="a">Séries</a>
+            <a href="a">Filmes</a>
+            <a href="a">Documentários</a>
+        </nav>
+    </div>
+
+</header>
+
+<main>
+    <div class="filme-principal">
+        <div class="container">
+            <h3 class="titulo">SWEET TOOTH</h3>
+            <p class="descricao">Em uma perigosa aventura em um mundo pós-apocalíptico, um adorável menino-cervo sai em busca de um novo começo na companhia de um protetor rabugento </p>
+            <div class="botoes">
+                <button type="button" class="botao" onclick="clicouTrailer()" >
+                    <i class="fas fa-play"></i>
+                    ASSISTIR AGORA
+                </button>
+                <button type="button" class="botao" onclick="clicou()">
+                    <i class="fas fa-info-circle"></i>
+                    MAIS INFORMÇÕES
+                </button>
+                       
+                </button>
+             </div>  
+               
+        </div>   
+    </div>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+             <img class="box-filmes"src="Img/mini1.jpg" onclick="filme1()">
+            </div>
+            <div class="item">
+                <img class="box-filmes"src="Img/mini2.jpg" onclick="filme2()">
+            </div>
+            <div class="item">
+                <img class="box-filmes"src="Img/mini3.jpg" onclick="filme3()">
+            </div>
+            <div class="item">
+                <img class="box-filmes"src="Img/mini4.jpg" onclick="filme4()">
+            </div>
+            <div class="item">
+                <img class="box-filmes"src="Img/mini5.jpg" onclick="filme5()">
+            </div>
+            <div class="item">
+                <img class="box-filmes"src="Img/mini6.jpg" onclick="filme6()">
+            </div>
+            <div class="item">
+                <img class="box-filmes"src="Img/mini7.jpg" onclick="filme7()">
+            </div>
+            <div class="item">
+                <img class="box-filmes"src="Img/mini8.jpg" onclick="filme8()">
+            </div>
+            <div class="item">
+                <img class="box-filmes"src="Img/mini9.jpg" onclick="filme9()">
+            </div>
+            <div class="item">
+                <img class="box-filmes"src="Img/mini10.jpg" onclick="filme10()">
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="https://kit.fontawesome.com/6f8ceca14d.js" crossorigin="anonymous"></script>
+<script src="js/owl/jquery.min.js"></script>
+<script src="js/owl/owl.carousel.min.js"></script>
+<script src="js/owl/setup.js"></script>
+</body>
+</html>
