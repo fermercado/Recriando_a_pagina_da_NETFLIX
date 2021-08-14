@@ -1,4 +1,5 @@
 Recriando_a_pagina_da_NETFLIX
+
 Nesse desafio recriei a pagina da netflix de forma responsiva para o curso HTML Web Developer (Digital Innovation One)
 
 Usando as ferramentas HTML, CSS e JavaScript
